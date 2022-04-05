@@ -32,3 +32,16 @@ const tvAmbiLight =  inventory.filter((tvAmbi) => {
 })
 
 console.log(tvAmbiLight)
+
+
+//1d:
+//
+//
+
+inventory.sort((a, b) => {
+ return a.price - b.price;
+
+})
+
+console.log(inventory)
+  
