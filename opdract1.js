@@ -38,10 +38,12 @@ console.log(tvAmbiLight)
 //
 //
 
-inventory.sort((a, b) => {
- return a.price - b.price;
+function tvSortLowHigh(array) {
+     array.sort((a, b) => {
+        return a.price - b.price;
 
-})
-
+    })
+}
+tvSortLowHigh(inventory)
 console.log(inventory)
   
