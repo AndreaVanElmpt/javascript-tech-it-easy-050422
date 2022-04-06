@@ -12,14 +12,14 @@ const tvNames = inventory.map ((tv) => {
 console.log(tvNames)
 
 //1b:
-// 1. gebruik de filter-methoths
+// 1. gebruik de filter-methods
 // 2. Filter uitkomst
 
-const tvSold = inventory.filter((tvSoldOut) => {
-    return tvSoldOut.originalStock === tvSoldOut.sold
+const tvSoldOut = inventory.filter((tvSoldOutActual) => {
+    return tvSoldOutActual.originalStock === tvSoldOutActual.sold
 })
 
-console.log(tvSold)
+console.log(tvSoldOut)
 
 //1c:
 
