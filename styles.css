@@ -12,3 +12,7 @@ span.blue {
 span.red{
     color: red;
 }
+
+li {
+    list-style: none;
+}

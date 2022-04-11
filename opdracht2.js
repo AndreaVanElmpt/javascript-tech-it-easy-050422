@@ -12,9 +12,9 @@ console.log(tvSold);
 //2b
 
 
-const amountSold = document.getElementById(`totalAmount`)
+const amountSold = document.getElementById(`totalAmount`);
 
-console.log(amountSold)
+console.log(amountSold);
 
 amountSold.textContent = tvSold
 
